@@ -5,7 +5,7 @@
         <app-new-quote  @quoteAdd="newQuote" :quoteValue="quotes.length" ></app-new-quote>
         <app-quotes v-for="(quote,index) in quotes" :key="quote" @click.native="deleteQuote(index)">{{quote}}</app-quotes>
     </div>
-    <div class="row">
+    <div class="row m-t-30">
       <div class="col-sm-12 text-center">
         <div class="alert alert-info">Info: Click on a Quote to delete it ! </div>
       </div>
@@ -46,5 +46,9 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.m-t-30 {
+  margin-top: 30px;
 }
 </style>

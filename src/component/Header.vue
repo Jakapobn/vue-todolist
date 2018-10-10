@@ -1,7 +1,7 @@
 <template>
   <div>
     <h2>Quotes Added</h2>
-    <b-progress :value="quoteValue" :max="maxQuotes" class="mb-3 progress" :animated="true"  show-value></b-progress>
+    <b-progress :value="quoteValue" :max="maxQuotes" class="mb-3 progress" :animated="animate"  show-value></b-progress>
  </div>
 </template>
 
