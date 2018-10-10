@@ -1,6 +1,6 @@
 # vue-quotes
 
-> A Vue.js project
+> A simple Vue.js project -> todo list
 
 ## Build Setup
 
